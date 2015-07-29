@@ -1,0 +1,317 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/smarthi/opensourceprojects/JavaTest/src/sqrt.scala, /Users/smarthi/opensourceprojects/JavaTest/src/FirstJBlas.java, /Users/smarthi/opensourceprojects/JavaTest/src/Test.java, /Users/smarthi/opensourceprojects/JavaTest/src/Gibbs.java, /Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java, /Users/smarthi/opensourceprojects/JavaTest/src/CountInversions.java, /Users/smarthi/opensourceprojects/JavaTest/src/MyModule.scala, /Users/smarthi/opensourceprojects/JavaTest/src/GuavaTest.java)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/smarthi/opensourceprojects/JavaTest/src/sqrt.scala, /Users/smarthi/opensourceprojects/JavaTest/src/FirstJBlas.java, /Users/smarthi/opensourceprojects/JavaTest/src/Test.java, /Users/smarthi/opensourceprojects/JavaTest/src/Gibbs.java, /Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java, /Users/smarthi/opensourceprojects/JavaTest/src/CountInversions.java, /Users/smarthi/opensourceprojects/JavaTest/src/MyModule.scala, /Users/smarthi/opensourceprojects/JavaTest/src/GuavaTest.java)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/smarthi/opensourceprojects/JavaTest/src/sqrt.scala, /Users/smarthi/opensourceprojects/JavaTest/src/FirstJBlas.java, /Users/smarthi/opensourceprojects/JavaTest/src/Test.java, /Users/smarthi/opensourceprojects/JavaTest/src/Gibbs.java, /Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java, /Users/smarthi/opensourceprojects/JavaTest/src/CountInversions.java, /Users/smarthi/opensourceprojects/JavaTest/src/MyModule.scala, /Users/smarthi/opensourceprojects/JavaTest/src/GuavaTest.java)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 8 sources: invalidated sources (8) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources and 6 Java sources to /Users/smarthi/opensourceprojects/JavaTest/src/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.2[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.2[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 20136da8, interfacing (CompilerInterface) with Scala compiler version 2.10.2[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/classes:/Users/smarthi/.sbt/boot/scala-2.10.2/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/smarthi/opensourceprojects/JavaTest/src/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0mScala compilation took 4.19659 s[0m
+[0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
+[0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/var/folders/_c/5zjg5d2n16dcb9_vlmb62y4m0000gp/T/sbt_163cb433/argfile[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/FirstJBlas.java:1: error: package org.jblas does not exist[0m
+[0m[[31merror[0m] [0mimport org.jblas.DoubleMatrix;[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/Gibbs.java:3: error: package cern.jet.random.tdouble does not exist[0m
+[0m[[31merror[0m] [0mimport cern.jet.random.tdouble.Gamma;[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/Gibbs.java:4: error: package cern.jet.random.tdouble does not exist[0m
+[0m[[31merror[0m] [0mimport cern.jet.random.tdouble.Normal;[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/Gibbs.java:5: error: package cern.jet.random.tdouble.engine does not exist[0m
+[0m[[31merror[0m] [0mimport cern.jet.random.tdouble.engine.DoubleMersenneTwister;[0m
+[0m[[31merror[0m] [0m                                     ^[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/Gibbs.java:6: error: package cern.jet.random.tdouble.engine does not exist[0m
+[0m[[31merror[0m] [0mimport cern.jet.random.tdouble.engine.DoubleRandomEngine;[0m
+[0m[[31merror[0m] [0m                                     ^[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/GuavaTest.java:1: error: package com.google.common.base does not exist[0m
+[0m[[31merror[0m] [0mimport com.google.common.base.Strings;[0m
+[0m[[31merror[0m] [0m                             ^[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/GuavaTest.java:2: error: package com.google.common.collect does not exist[0m
+[0m[[31merror[0m] [0mimport com.google.common.collect.Iterators;[0m
+[0m[[31merror[0m] [0m                                ^[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/GuavaTest.java:3: error: package com.google.common.collect does not exist[0m
+[0m[[31merror[0m] [0mimport com.google.common.collect.Lists;[0m
+[0m[[31merror[0m] [0m                                ^[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:1: error: package com.google.common.collect does not exist[0m
+[0m[[31merror[0m] [0mimport com.google.common.collect.Lists;[0m
+[0m[[31merror[0m] [0m                                ^[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:2: error: package org.apache.lucene.util does not exist[0m
+[0m[[31merror[0m] [0mimport org.apache.lucene.util.BytesRef;[0m
+[0m[[31merror[0m] [0m                             ^[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:3: error: package org.apache.lucene.util.automaton does not exist[0m
+[0m[[31merror[0m] [0mimport org.apache.lucene.util.automaton.Automaton;[0m
+[0m[[31merror[0m] [0m                                       ^[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:4: error: package org.apache.lucene.util.automaton does not exist[0m
+[0m[[31merror[0m] [0mimport org.apache.lucene.util.automaton.BasicAutomata;[0m
+[0m[[31merror[0m] [0m                                       ^[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:5: error: package org.apache.lucene.util.automaton does not exist[0m
+[0m[[31merror[0m] [0mimport org.apache.lucene.util.automaton.BasicOperations;[0m
+[0m[[31merror[0m] [0m                                       ^[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:6: error: package org.apache.lucene.util.automaton does not exist[0m
+[0m[[31merror[0m] [0mimport org.apache.lucene.util.automaton.CharacterRunAutomaton;[0m
+[0m[[31merror[0m] [0m                                       ^[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:7: error: package org.apache.lucene.util.automaton does not exist[0m
+[0m[[31merror[0m] [0mimport org.apache.lucene.util.automaton.RegExp;[0m
+[0m[[31merror[0m] [0m                                       ^[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:39: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m  public static Automaton stringUnionAutomaton(String[] strs) {[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m  symbol:   class Automaton[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:66: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m  public static Automaton createFirstBeforeLastAutomaton(String[] firstNames, String[] lastNames) {[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m  symbol:   class Automaton[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:84: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m  public static Automaton createLastBeforeFirstAutomaton(String[] firstNames, String[] lastNames) {[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m  symbol:   class Automaton[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:94: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m  public static Automaton createNameValidator(String[] firstNames, String[] lastNames) {[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m  symbol:   class Automaton[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/FirstJBlas.java:14: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    DoubleMatrix matrix = new DoubleMatrix(data);[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m  symbol:   class DoubleMatrix[0m
+[0m[[31merror[0m] [0m  location: class FirstJBlas[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/FirstJBlas.java:14: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    DoubleMatrix matrix = new DoubleMatrix(data);[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m  symbol:   class DoubleMatrix[0m
+[0m[[31merror[0m] [0m  location: class FirstJBlas[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/FirstJBlas.java:16: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    DoubleMatrix vector = new DoubleMatrix(new double[]{3, 3, 3, 3,3});[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m  symbol:   class DoubleMatrix[0m
+[0m[[31merror[0m] [0m  location: class FirstJBlas[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/FirstJBlas.java:16: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    DoubleMatrix vector = new DoubleMatrix(new double[]{3, 3, 3, 3,3});[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m  symbol:   class DoubleMatrix[0m
+[0m[[31merror[0m] [0m  location: class FirstJBlas[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/FirstJBlas.java:17: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    DoubleMatrix result = matrix.mmul(vector);[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m  symbol:   class DoubleMatrix[0m
+[0m[[31merror[0m] [0m  location: class FirstJBlas[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/FirstJBlas.java:20: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    DoubleMatrix x = DoubleMatrix.ones(10, 5);[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m  symbol:   class DoubleMatrix[0m
+[0m[[31merror[0m] [0m  location: class FirstJBlas[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/FirstJBlas.java:20: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    DoubleMatrix x = DoubleMatrix.ones(10, 5);[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable DoubleMatrix[0m
+[0m[[31merror[0m] [0m  location: class FirstJBlas[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/Gibbs.java:15: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    DoubleRandomEngine rngEngine = new DoubleMersenneTwister(new Date());[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m  symbol:   class DoubleRandomEngine[0m
+[0m[[31merror[0m] [0m  location: class Gibbs[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/Gibbs.java:15: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    DoubleRandomEngine rngEngine = new DoubleMersenneTwister(new Date());[0m
+[0m[[31merror[0m] [0m                                       ^[0m
+[0m[[31merror[0m] [0m  symbol:   class DoubleMersenneTwister[0m
+[0m[[31merror[0m] [0m  location: class Gibbs[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/Gibbs.java:16: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    Normal rngN = new Normal(0.0,1.0,rngEngine);[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m  symbol:   class Normal[0m
+[0m[[31merror[0m] [0m  location: class Gibbs[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/Gibbs.java:16: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    Normal rngN = new Normal(0.0,1.0,rngEngine);[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m  symbol:   class Normal[0m
+[0m[[31merror[0m] [0m  location: class Gibbs[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/Gibbs.java:17: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    Gamma rngG = new Gamma(1.0,1.0,rngEngine);[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m  symbol:   class Gamma[0m
+[0m[[31merror[0m] [0m  location: class Gibbs[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/Gibbs.java:17: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    Gamma rngG = new Gamma(1.0,1.0,rngEngine);[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m  symbol:   class Gamma[0m
+[0m[[31merror[0m] [0m  location: class Gibbs[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/GuavaTest.java:19: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    System.out.println(Strings.isNullOrEmpty(" ".trim()));[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable Strings[0m
+[0m[[31merror[0m] [0m  location: class GuavaTest[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/GuavaTest.java:20: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    System.out.println(Strings.isNullOrEmpty(" "));[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable Strings[0m
+[0m[[31merror[0m] [0m  location: class GuavaTest[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/GuavaTest.java:21: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    System.out.println(Strings.isNullOrEmpty(null));[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable Strings[0m
+[0m[[31merror[0m] [0m  location: class GuavaTest[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/GuavaTest.java:23: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    List<String> list = Lists.newArrayList();[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable Lists[0m
+[0m[[31merror[0m] [0m  location: class GuavaTest[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/GuavaTest.java:30: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    List<String> list1 = Lists.newArrayListWithExpectedSize(3);[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable Lists[0m
+[0m[[31merror[0m] [0m  location: class GuavaTest[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/GuavaTest.java:34: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    List<String> list2  = Lists.newArrayListWithCapacity(4);[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable Lists[0m
+[0m[[31merror[0m] [0m  location: class GuavaTest[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/GuavaTest.java:43: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    Iterator<String> iter = Iterators.forArray(strArray);[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable Iterators[0m
+[0m[[31merror[0m] [0m  location: class GuavaTest[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/GuavaTest.java:44: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    System.out.println(Iterators.size(iter));[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable Iterators[0m
+[0m[[31merror[0m] [0m  location: class GuavaTest[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:16: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    Collection<BytesRef> strings = Lists.newArrayList();[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m  symbol:   class BytesRef[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:16: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    Collection<BytesRef> strings = Lists.newArrayList();[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable Lists[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:18: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m      strings.add(new BytesRef(word));[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m  symbol:   class BytesRef[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:22: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    Automaton automaton = BasicAutomata.makeStringUnion(strings);[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m  symbol:   class Automaton[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:22: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    Automaton automaton = BasicAutomata.makeStringUnion(strings);[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable BasicAutomata[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:23: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    CharacterRunAutomaton run = new CharacterRunAutomaton(automaton);[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m  symbol:   class CharacterRunAutomaton[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:23: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    CharacterRunAutomaton run = new CharacterRunAutomaton(automaton);[0m
+[0m[[31merror[0m] [0m                                    ^[0m
+[0m[[31merror[0m] [0m  symbol:   class CharacterRunAutomaton[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:40: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    Automaton strUnion = null;[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m  symbol:   class Automaton[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:45: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m      Automaton currStrAutomaton = BasicAutomata.makeString(str);[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0m  symbol:   class Automaton[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:45: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m      Automaton currStrAutomaton = BasicAutomata.makeString(str);[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable BasicAutomata[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:52: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m        strUnion = BasicOperations.union(strUnion, currStrAutomaton);[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable BasicOperations[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:67: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    List<Automaton> allAutomatons = Lists.newArrayList();[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m  symbol:   class Automaton[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:67: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    List<Automaton> allAutomatons = Lists.newArrayList();[0m
+[0m[[31merror[0m] [0m                                    ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable Lists[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:73: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    RegExp anyNumberOfSpaces = new RegExp("[ \t]+");[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m  symbol:   class RegExp[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:73: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    RegExp anyNumberOfSpaces = new RegExp("[ \t]+");[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m  symbol:   class RegExp[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:74: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    Automaton anySpaces = anyNumberOfSpaces.toAutomaton();[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m  symbol:   class Automaton[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:81: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    return BasicOperations.concatenate(allAutomatons);[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable BasicOperations[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:85: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    List<Automaton> allAutomatons = Lists.newArrayList();[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m  symbol:   class Automaton[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:85: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    List<Automaton> allAutomatons = Lists.newArrayList();[0m
+[0m[[31merror[0m] [0m                                    ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable Lists[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:88: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    RegExp commaPlusAnyNumberOfSpaces = new RegExp(",[ \t]+");[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m  symbol:   class RegExp[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:88: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    RegExp commaPlusAnyNumberOfSpaces = new RegExp(",[ \t]+");[0m
+[0m[[31merror[0m] [0m                                            ^[0m
+[0m[[31merror[0m] [0m  symbol:   class RegExp[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:91: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    return BasicOperations.concatenate(allAutomatons);[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable BasicOperations[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m/Users/smarthi/opensourceprojects/JavaTest/src/LuceneFSA.java:95: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m    return BasicOperations.union(createFirstBeforeLastAutomaton(firstNames, lastNames),[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m  symbol:   variable BasicOperations[0m
+[0m[[31merror[0m] [0m  location: class LuceneFSA[0m
+[0m[[31merror[0m] [0m63 errors[0m
+[0m[[0mdebug[0m] [0mjavac returned exit code: 1[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) javac returned nonzero exit code[0m
